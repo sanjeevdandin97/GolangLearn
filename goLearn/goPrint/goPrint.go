@@ -1,4 +1,4 @@
-package main
+package goPrint
 
 import "fmt"
 

@@ -1,4 +1,4 @@
-package main
+package goReturnType
 
 import "fmt"
 
