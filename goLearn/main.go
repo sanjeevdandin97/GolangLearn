@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"goLearn/goPrint"
 	"goLearn/goReturnType"
-	goStdIO "goLearn/goStdInputOutput"
+	"goLearn/goStdIO"
 	"os"
 )
 
