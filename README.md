@@ -2,18 +2,10 @@
 
 A dump of Go lang code learning to understand basics of go lang
 
-## Run the code
+## Table of contents
 
-**Syntax:** `go run . ARG1 ARG2 .... ARGN`
-
-**System Arguments:**
-
-- `RT`: Return Type.
-- `PRNT`: Terminal Print/Console log Statements.
-- `STDIO`: Standard Input/Output flow.
-- `TC`: Go Type Conversions.
-
-**Example:** `go run . RT PRNT RT ...... STDIO`
+- Go Basics
+- Gin Framework
 
 ## Resources
 
