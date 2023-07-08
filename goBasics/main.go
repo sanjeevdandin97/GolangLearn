@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"goLearn/goPrint"
-	"goLearn/goReturnType"
-	"goLearn/goStdIO"
-	"goLearn/goTypeConversions"
+	"goBasics/goPrint"
+	"goBasics/goReturnType"
+	"goBasics/goStdIO"
+	"goBasics/goTypeConversions"
 	"os"
 )
 
