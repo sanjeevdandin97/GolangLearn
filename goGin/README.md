@@ -2,11 +2,11 @@
 This project is created and practiced to understand the basics of GoLang - GIN framework
 
 ## Run the code
-Step 1: open the terminal and navigate to this project location then run the below command
+**Step 1:** Open the terminal and navigate to this project location then run the below command
 ```
 go run ./main.go
 ```
-Step 2: Open any browser paste any of the below urls in browser link box
+**Step 2:** Open any browser paste any of the below urls in browser link box
 - `localhost:8080/example`
 - `localhost:8080/hello`
 
