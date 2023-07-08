@@ -9,14 +9,6 @@ import (
 	"os"
 )
 
-// SINGLE LINE COMMENT
-/* MULTI LINE COMMENTS */
-
-/*
-- `RT`: Return Type
-- `PRNT`: Terminal Print/Console log Statements
-- `STDIO`: Standard Input/Output flow
-*/
 func main() {
 	runLoop()
 }
