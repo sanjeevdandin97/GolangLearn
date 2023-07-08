@@ -5,6 +5,7 @@ import (
 	"goLearn/goPrint"
 	"goLearn/goReturnType"
 	"goLearn/goStdIO"
+	"goLearn/goTypeConversions"
 	"os"
 )
 
@@ -12,10 +13,10 @@ import (
 /* MULTI LINE COMMENTS */
 
 /*
-* command `go run . RT PRNT`
-* `RT` = Return Type
-* `PRNT` = Terminal Print/Console log Statements
- */
+- `RT`: Return Type
+- `PRNT`: Terminal Print/Console log Statements
+- `STDIO`: Standard Input/Output flow
+*/
 func main() {
 	runLoop()
 }
@@ -43,5 +44,8 @@ func checkSysArg(systemArgument string) {
 	} else if systemArgument == "STDIO" {
 		// Example for Standard Input output statements
 		goStdIO.Gostdinputoutput()
+	} else if systemArgument == "TC" {
+		// Example for GO Type Conversions
+		goTypeConversions.GoTypesConversions()
 	}
 }
