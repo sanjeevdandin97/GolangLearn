@@ -1,4 +1,14 @@
 # Go Basics
+This project has code which showcases GoLang basics
+
+## Table of Contents
+Below are the topics added in this project folder
+- Input/Output statements
+- Return statements based on types
+- Type Conversions
+- Output Statements
+- Math Statements
+- Basic Unit Testing
 
 ## Run the code
 
