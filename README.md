@@ -1,4 +1,4 @@
-# GoLang Learning Dump
+# GoLang Learning Workspace Dump
 
 A dump of Go lang code learning to understand basics of go lang
 
