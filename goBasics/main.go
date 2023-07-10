@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"goBasics/goLoops"
 	"goBasics/goPrint"
 	"goBasics/goReturnType"
 	"goBasics/goStdIO"
@@ -46,5 +47,9 @@ func checkSysArg(systemArgument string) {
 	} else if systemArgument == "STRCT_EXPLICIT" {
 		// Example for GO Struct
 		goStructs.ExpilcitCallPrintPerson()
+	} else if systemArgument == "LOOP_BASE" || systemArgument == "LOOP_COND" || systemArgument == "LOOP_RNGE" {
+		// Example for GO Loops
+		goLoops.RunGoLoops(systemArgument)
 	}
+
 }
