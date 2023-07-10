@@ -28,3 +28,4 @@ Below are the topics added in this project folder
 - [Math Statements - ./goMath](/goBasics/goMath/README.md)
 - [Basic Unit Testing - ./goMath](/goBasics/goMath/README.md)
 - [Loops - ./goLoops](/goBasics/goLoops/README.md)
+- [Go Structs/ Structures - ./goStructs](/goBasics/goStructs/README.md)
