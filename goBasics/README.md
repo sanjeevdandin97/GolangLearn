@@ -27,3 +27,4 @@ Below are the topics added in this project folder
 - Output Statements
 - Math Statements
 - Basic Unit Testing
+- Go Structs/ Structures
