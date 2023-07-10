@@ -4,8 +4,8 @@ A dump of Go lang code learning to understand basics of go lang
 
 ## Topics - /project-folder-name
 
-- [Go Basics - /goBasics](https://github.com/sanjeevdandin97/GolangLearn/blob/main/goBasics/README.md)
-- [Gin Framework - /goGin](https://github.com/sanjeevdandin97/GolangLearn/blob/main/goGin/README.md)
+- [Go Basics - /goBasics](goBasics/README.md)
+- [Gin Framework - /goGin](goGin/README.md)
 
 ## Resources
 

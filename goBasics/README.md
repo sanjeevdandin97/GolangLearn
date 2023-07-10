@@ -12,8 +12,8 @@ This project has code which showcases GoLang basics
 - `PRNT`: Terminal Print/Console log Statements.
 - `STDIO`: Standard Input/Output flow.
 - `TC`: Go Type Conversions.
-- `STRCT_IMPLICIT`: Go Structures implcitly called with default values (go `struct`)
-- `STRCT_EXPLICIT`: Go Structures explicitly called(go `struct`)
+- `STRCT_IMPLICIT` | `STRCT_EXPLICIT`: Go Structures (go `struct`)
+- `LOOP_BASE` | `LOOP_COND` | `LOOP_RNGE`: Go Loops
 
 **Example:** `go run . RT PRNT RT ...... STDIO`
 
@@ -21,9 +21,10 @@ This project has code which showcases GoLang basics
 
 Below are the topics added in this project folder
 
-- Input/Output statements
-- Return statements based on types
-- Type Conversions
-- Output Statements
-- Math Statements
-- Basic Unit Testing
+- [Input/Output statements - ./goStdIO](/goBasics/goStdIO/README.md)
+- [Return statements based on types - ./goReturnType](/goBasics/goReturnType/README.md)
+- [Type Conversions - ./goTypeConversions](/goBasics/goTypeConversions/README.md)
+- [Output Statements - ./goPrint](/goBasics/goPrint/README.md)
+- [Math Statements - ./goMath](/goBasics/goMath/README.md)
+- [Basic Unit Testing - ./goMath](/goBasics/goMath/README.md)
+- [Loops - ./goLoops](/goBasics/goLoops/README.md)
