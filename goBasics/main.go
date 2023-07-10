@@ -5,6 +5,7 @@ import (
 	"goBasics/goPrint"
 	"goBasics/goReturnType"
 	"goBasics/goStdIO"
+	"goBasics/goStructs"
 	"goBasics/goTypeConversions"
 	"os"
 )
@@ -39,5 +40,11 @@ func checkSysArg(systemArgument string) {
 	} else if systemArgument == "TC" {
 		// Example for GO Type Conversions
 		goTypeConversions.GoTypesConversions()
+	} else if systemArgument == "STRCT_IMPLICIT" {
+		// Example for GO Struct
+		goStructs.ImplicitCallPrintPerson()
+	} else if systemArgument == "STRCT_EXPLICIT" {
+		// Example for GO Struct
+		goStructs.ExpilcitCallPrintPerson()
 	}
 }
