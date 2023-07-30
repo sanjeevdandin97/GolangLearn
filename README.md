@@ -6,6 +6,7 @@ A dump of Go lang code learning to understand basics of go lang
 
 - [Go Basics - /goBasics](goBasics/README.md)
 - [Gin Framework - /goGin](goGin/README.md)
+- [GoLang with PostGreSQL - goPostGres/](goPostGres/README.md)
 
 ## Resources
 
