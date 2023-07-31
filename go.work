@@ -5,3 +5,5 @@ use ./goBasics
 use ./goGin
 
 use ./goPostGres
+
+use ./goGinGorm
