@@ -18,7 +18,7 @@ go foo()
 **_example:_**
 Let’s look at an example. We define a function foo that prints numbers from 1 to 3 along with the passed string. We add a delay using time.Sleep() inside the for loop. Without the delay, the first goroutine will finish executing even before the second one starts. The delay ensures that the goroutines are running concurrently before the results are shown.
 
-```
+```go
 package main
 
 import (

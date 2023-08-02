@@ -30,7 +30,7 @@ Moreover, by default, channels send and receive until the other side is ready. T
 - The function greet is blocked when it encounters <- c and waits to receive a value.
 - The main goroutine sends a value to the channel, which is then printed by the greet function.
 
-```
+```go
 package main
 import "fmt"
 
