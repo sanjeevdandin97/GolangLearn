@@ -2,11 +2,12 @@
 
 A dump of Go lang code learning to understand basics of go lang
 
-## Topics - /project-folder-name
+## Topics - `/project-folder-name`
 
-- [Go Basics - /goBasics](goBasics/README.md)
-- [Gin Framework - /goGin](goGin/README.md)
-- [GoLang with PostGreSQL - goPostGres/](goPostGres/README.md)
+- [Go Basics - `/goBasics`](goBasics/README.md)
+- [GoLang Intermediate topics - `/goIntermediate`](goIntermediate/README.md)
+- [Gin Framework - `/goGin`](goGin/README.md)
+- [GoLang with PostGreSQL - `goPostGres/`](goPostGres/README.md)
 
 ## Resources
 
