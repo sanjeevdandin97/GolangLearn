@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"goIntermediate/go_buffers"
+	"goIntermediate/go_channels"
 	"goIntermediate/go_context"
 	"goIntermediate/go_interfaces"
 	"goIntermediate/go_mutex"
@@ -44,5 +45,7 @@ func checkSysArg(systemArgument string) {
 		go_routines.INIT()
 	} else if systemArgument == "SLCT" {
 		go_select.INIT()
+	} else if systemArgument == "CHNL" {
+		go_channels.INIT()
 	}
 }
