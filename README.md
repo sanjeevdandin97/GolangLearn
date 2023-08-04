@@ -1,13 +1,14 @@
 # GoLang Learning Workspace Dump
 
-A dump of Go lang code learning to understand basics of go lang
+A dump of Go lang code my random learning and documentation to understand basics of go lang
 
 ## Topics - `/project-folder-name`
 
-- [Go Basics - `/goBasics`](goBasics/README.md)
-- [GoLang Intermediate topics - `/goIntermediate`](goIntermediate/README.md)
-- [Gin Framework - `/goGin`](goGin/README.md)
-- [GoLang with PostGreSQL - `goPostGres/`](goPostGres/README.md)
+- [Go Basics - `/goBasics`](goBasics/)
+- [GoLang Intermediate topics - `/goIntermediate`](goIntermediate/)
+- [Gin Framework - `/goGin`](goGin/)
+- [GoLang with PostGreSQL - `goPostGres/`](goPostGres/)
+- [GoLang with GORM(PostGres) and Gin - `goGinGorm/`](goGinGorm/)
 
 ## Resources
 

@@ -37,8 +37,8 @@ func checkSysArg(systemArgument string) {
 		go_context.INIT()
 	} else if systemArgument == "INTF" {
 		go_interfaces.INIT()
-	} else if systemArgument == "MTX" {
-		go_mutex.INIT()
+	} else if systemArgument == "MTX" || systemArgument == "RWMTX" || systemArgument == "MTXI" {
+		go_mutex.INIT(&systemArgument)
 	} else if systemArgument == "PNTRS" {
 		go_pointers.INIT()
 	} else if systemArgument == "GRTS" {
