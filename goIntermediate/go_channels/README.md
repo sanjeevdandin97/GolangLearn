@@ -1,4 +1,4 @@
-# Go Channels
+# [![Go Back Image][1]](../) Go Channels
 
 In Golang, or Go, channels are a means through which different `goroutines` communicate.
 
@@ -6,7 +6,7 @@ Think of them as pipes through which you can connect with different concurrent `
 
 Moreover, by default, channels send and receive until the other side is ready. This allows `goroutines` to synchronize without explicit locks or condition variables.
 
-![Channels Image](./4671705944424448.svg)
+![Channels Image][2]
 
 <p style="text-align: center;">
     Sending data from one goroutine to another
@@ -61,3 +61,7 @@ func main() {
 ## Resources
 
 [What are channels in Golang? - educative.io](https://www.educative.io/answers/what-are-channels-in-golang)
+
+[comment]: <> (Images Paths specified below)
+[1]: ./../../assets/icons/go-back-arrow-svgrepo-com.svg
+[2]: ./../../assets/icons/4671705944424448.svg
