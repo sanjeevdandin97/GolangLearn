@@ -12,10 +12,13 @@ Learning things about GoLang intermediate topics.
 - `CNTXT` - Context
 - `INTF` - Interfaces
 - `MTX` - Mutex
+- `RWMTX` - Read/ Write Mutex
+- `MTXI` - Mutex with Instructs
 - `PNTRS` - Pointers
 - `GRTS` - goroutines
 - `SLCT` - Select
 - `CHNL` - Channels
+- `MRSHL` - Marshelling and UnMarshalling
 
 **_Example:_** `go run BFF CNTXT BFF ...... CHNL`
 
@@ -29,3 +32,4 @@ Learning things about GoLang intermediate topics.
 - [Select - `./go_select`](./go_select/)
 - [Mutex - `./go_mutex`](./go_mutex/)
 - [Channels - `./go_channels`](./go_channels/)
+- [Go Marshalling and UnMarshalling - `./go_marshal/`](./go_marshal/)

@@ -6,6 +6,7 @@ import (
 	"goIntermediate/go_channels"
 	"goIntermediate/go_context"
 	"goIntermediate/go_interfaces"
+	"goIntermediate/go_marshal"
 	"goIntermediate/go_mutex"
 	"goIntermediate/go_pointers"
 	"goIntermediate/go_routines"
@@ -31,7 +32,7 @@ func runLoop() {
 }
 
 func checkSysArg(systemArgument string) {
-	if systemArgument == "BFF" {
+	if systemArgument == "BFFR" {
 		go_buffers.INIT()
 	} else if systemArgument == "CNTXT" {
 		go_context.INIT()
@@ -47,5 +48,7 @@ func checkSysArg(systemArgument string) {
 		go_select.INIT()
 	} else if systemArgument == "CHNL" {
 		go_channels.INIT()
+	} else if systemArgument == "MRSHL" {
+		go_marshal.INIT()
 	}
 }
