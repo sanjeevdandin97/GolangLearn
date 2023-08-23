@@ -14,6 +14,7 @@ This project has code which showcases GoLang basics
 - `TC`: Go Type Conversions.
 - `STRCT_IMPLICIT` | `STRCT_EXPLICIT`: Go Structures (go `struct`)
 - `LOOP_BASE` | `LOOP_COND` | `LOOP_RNGE`: Go Loops
+- `ERRH`: Go Error Handling
 
 **_Example:_** `go run . RT PRNT RT ...... STDIO`
 
@@ -21,11 +22,12 @@ This project has code which showcases GoLang basics
 
 Below are the topics added in this project folder
 
-- [Input/Output statements - ./goStdIO](/goBasics/goStdIO/)
-- [Return statements based on types - ./goReturnType](/goBasics/goReturnType/)
-- [Type Conversions - ./goTypeConversions](/goBasics/goTypeConversions/)
-- [Output Statements - ./goPrint](/goBasics/goPrint/)
-- [Math Statements - ./goMath](/goBasics/goMath/)
-- [Basic Unit Testing - ./goMath](/goBasics/goMath/)
-- [Loops - ./goLoops](/goBasics/goLoops/)
+- [Input/Output statements - ./goStdIO](./goStdIO/)
+- [Return statements based on types - ./goReturnType](./goReturnType/)
+- [Type Conversions - ./goTypeConversions](./goTypeConversions/)
+- [Output Statements - ./goPrint](./goPrint/)
+- [Math Statements - ./goMath](./goMath/)
+- [Basic Unit Testing - ./goMath](./goMath/)
+- [Loops - ./goLoops](./goLoops/)
 - [Go Structs/ Structures - ./goStructs](/goBasics/goStructs/)
+- [Go Error Handling - ./goErrorHandling](./goErrorHandling/)

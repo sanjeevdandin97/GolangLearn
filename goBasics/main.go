@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"goBasics/goErrorHandling"
 	"goBasics/goLoops"
 	"goBasics/goPrint"
 	"goBasics/goReturnType"
@@ -50,6 +51,8 @@ func checkSysArg(systemArgument string) {
 	} else if systemArgument == "LOOP_BASE" || systemArgument == "LOOP_COND" || systemArgument == "LOOP_RNGE" {
 		// Example for GO Loops
 		goLoops.RunGoLoops(systemArgument)
+	} else if systemArgument == "ERRH1" || systemArgument == "ERRH2" || systemArgument == "ERRH3" || systemArgument == "ERRH4" {
+		// Example for Go Error Handling
+		goErrorHandling.GoErrorHandling(systemArgument)
 	}
-
 }
