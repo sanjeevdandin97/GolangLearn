@@ -1,15 +1,13 @@
 package main
 
 import (
+	"goGin/constants"
+
 	"github.com/gin-gonic/gin"
 )
 
 var router *gin.Engine
-
-var goRoutes = [2]string{
-	"example",
-	"hello",
-}
+var endPoints = constants.EndPoints
 
 func main() {
 	routerInit()
@@ -23,17 +21,21 @@ func routerInit() {
 }
 
 func createRoutes() {
-	for i := 0; i < len(goRoutes); i++ {
-		var message string = goRoutes[i]
-		// A handler for GET request on routes[i]
-		router.GET("/"+goRoutes[i], func(c *gin.Context) {
-			c.JSON(200, gin.H{
-				"message": message,
-			}) // gin.H is a shortcut for map[string]interface{}
-		})
+	for _, endPoint := range endPoints {
+		if endPoint.Method == "GET" {
+			handleGET(endPoint)
+		}
 	}
 }
 
 func runServer() {
 	router.Run() // listen and serve on port 8080
+}
+
+// A handler for GET request
+func handleGET(endPoint constants.EndpointStruct) {
+	var endPointName = "/" + endPoint.Name
+	router.GET(endPointName, func(ginContext *gin.Context) {
+		ginContext.JSON(200, endPoint.Response(ginContext))
+	})
 }

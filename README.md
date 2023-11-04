@@ -10,6 +10,10 @@ A dump of Go lang code my random learning and documentation to understand basics
 - [GoLang with PostGreSQL - `goPostGres/`](goPostGres/)
 - [GoLang with GORM(PostGres) and Gin - `goGinGorm/`](goGinGorm/)
 
+## The Roadmap
+
+![GoLang 'roadmap.sh website' image](./assets/images/golang_roadmap.jpg)
+
 ## Resources
 
 - [Learn to become a Go developer- Roadmap.sh](https://roadmap.sh/golang)
